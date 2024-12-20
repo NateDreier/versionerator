@@ -43,7 +43,7 @@ type TerraformVersions struct {
 func main() {
 	terraformVersions := TerraformVersions{}
 	// providers := ProviderInfo{}
-	terraformDirectory := "/projects/iac/terraform-v2"
+	terraformDirectory := ""
 
 
 	for _, path := range getProvidersFileList(getPath(terraformDirectory)) {
